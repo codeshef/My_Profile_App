@@ -18,6 +18,10 @@
             android:id="@+id/nav_certi"
             android:icon="@drawable/ic_school_black_24dp"
             android:title="Certification" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="Projects" />
     </group>
 
     <item android:title="Communicate">

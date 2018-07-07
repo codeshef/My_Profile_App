@@ -8,4 +8,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutMe">Hi there! I am Anchal Gupta Computer Science Student from NIT Hamirpur
+        and Developer looking for new opportunities. Knowledge of computer science is the modern
+    superpower and I would like to make world a better place by using it. I am interested in helping
+    people with technological innovation.I have passion for learning new things.This app contains all
+    my skills,qualifications ,projects etc.Click on top menu bar to know more.
+    </string>
+    <string name="headAbout">About Me</string>
+    <string name="plus2">Plus2</string>
+    <string name="Metric">Metric</string>
 </resources>

@@ -20,6 +20,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.acer.myportfolio.dummy.skillsFragment;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     android.support.v4.app.FragmentTransaction transaction;
@@ -100,6 +102,7 @@ public class MainActivity extends AppCompatActivity
             currentFragment = new academics();
 
         } else if (id == R.id.nav_skills) {
+            currentFragment = new skillsFragment();
 
         } else if (id == R.id.nav_certi) {
 

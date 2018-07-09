@@ -26,7 +26,7 @@
             android:textColor="@android:color/background_light"
             android:textSize="36sp"
             android:textStyle="bold"
-            tools:text="@string/headAbout" />
+            android:text="@string/headAbout" />
 
     <TextView
         android:id="@+id/textView4"

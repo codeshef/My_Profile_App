@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/background_light"
-            android:fontFamily="cursive"
+            android:fontFamily="serif"
             android:gravity="center_vertical"
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
@@ -41,27 +41,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
-            android:fontFamily="cursive"
+            android:fontFamily="serif"
             android:gravity="center"
             android:paddingBottom="15dp"
             android:paddingTop="15dp"
             android:shadowColor="@color/cardview_dark_background"
             android:text="School : RVN Public School Dadahu"
             android:textColor="@android:color/background_dark"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/background_light"
-            android:fontFamily="cursive"
+            android:fontFamily="serif"
             android:gravity="center"
             android:paddingBottom="15dp"
             android:shadowColor="@color/cardview_dark_background"
             android:text="Percentage : 94.6"
             android:textColor="@android:color/background_dark"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
     </LinearLayout>

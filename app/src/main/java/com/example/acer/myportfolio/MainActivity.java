@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity
             currentFragment = new certificateFragment();
 
         } else if (id == R.id.nav_contact) {
+            currentFragment = new ContactFragment();
 
         } else if (id == R.id.nav_resume) {
             currentFragment = new ResumeFragment();

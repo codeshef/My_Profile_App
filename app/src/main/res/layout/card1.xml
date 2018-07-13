@@ -42,7 +42,7 @@
             android:paddingTop="15dp"
             android:shadowColor="@color/cardview_dark_background"
             android:text="School : SVN Public School Nahan"
-            android:textColor="@android:color/background_dark"
+            android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textStyle="bold" />
 

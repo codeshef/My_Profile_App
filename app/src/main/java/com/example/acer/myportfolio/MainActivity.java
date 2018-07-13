@@ -93,7 +93,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_certi) {
             currentFragment = new certificateFragment();
 
-        } else if (id == R.id.nav_contact) {
+        } else if(id == R.id.nav_projects){
+            currentFragment = new projectFragment();
+        }
+        else if (id == R.id.nav_contact) {
             currentFragment = new ContactFragment();
 
         } else if (id == R.id.nav_resume) {

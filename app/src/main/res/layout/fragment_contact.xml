@@ -9,17 +9,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorAccent"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="@android:color/background_light"
             android:fontFamily="cursive"
             android:gravity="center"
             android:text="Contact Details"
             android:textAlignment="center"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
             android:textSize="36sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
@@ -114,7 +115,7 @@
                 android:textStyle="bold"
                 tools:ignore="RtlSymmetry" />
 
-            </GridLayout>
+        </GridLayout>
 
     </LinearLayout>
 

@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img1"
+    tools:context="com.example.acer.myportfolio.certificateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:text="Certification" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:columnCount="1"
+            android:rowCount="5"
+            tools:ignore="RtlHardcoded">
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/background_light"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="Android Development"
+                    android:textAlignment="center"
+                    android:id="@+id/button1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Git Fundamentals"
+                android:id="@+id/button2"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"/>
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Mastering Git"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:id = "@+id/button3"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Java Fundamentals"
+                android:textAlignment="center"
+                android:id = "@+id/button4"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:id="@+id/button5"
+                android:layout_marginBottom="10dp"
+                android:text="Java Fundamentals - Core Platform"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+        </GridLayout>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
